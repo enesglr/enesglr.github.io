@@ -1,0 +1,224 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>FrameB</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="FrameB">
+	<meta name="keywords" content="HTML,CSS,XML,JavaScript, PHP">
+	<meta name="author" content="Enes Güler">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+	<script type="text/javascript" src="js/ozel.js"></script>
+</head>
+<body>
+	<nav id="nav1" class="navbar navbar-expand-lg navbar-light bg-white border shadow-sm border-top-0 border-left-0 border-right-0 " >
+		<div class="container" id="yok">
+			<button class="navbar-toggler" type="button"  data-toggle="collapse" data-target="#onediomenuac"><span class="navbar-toggler-icon"></span> </button>
+			<a href="index.html" class="navbar-brand"><img width="40" class="logo-hizala" src="img/logo.png"></a>
+
+			<div class="collapse navbar-collapse" id="onediomenuac">
+				<form class="form-inline">
+					<div>
+						<span class="icon"><i id="icon1" class="fa fa-search search-icon"></i> </span><input id="myInput" onfocus="focusFunction()" onblur="blurFunction()" type="search" class="form-control form-control-sm inpt" placeholder="Discover your next favorite thing.." name="">
+						<div id="ara">
+							<ul>
+								<li><a href="">Yazı 1</a></li>
+								<li><a href="">Yazı 2</a></li>
+								<li><a href="">Yazı 3</a></li>
+							</ul>
+						</div>
+						</div>
+
+					<div id="overlay">
+						
+					</div>
+				</form>
+				
+				<ul class="navbar-nav mr-auto" id="menu">
+					<li class="nav-item">
+						<a href="#" class="nav-link ustmenu">Ask</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link ustmenu">Ship</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link ustmenu">Makers</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link ustmenu">Jobs</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link ustmenu">Events</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a href="#" class="nav-link ustmenu" data-toggle="dropdown">...</a>
+						<div class="dropdown-menu">
+							<small class="text-muted"><a href="#" class="dropdown-item">UPCOMING</a></small>
+							<small class="text-muted"><a href="#" class="dropdown-item">COLLECTION</a></small>
+							<small class="text-muted"><a href="#" class="dropdown-item">TOPICS</a></small>
+							<small class="text-muted"><a href="#" class="dropdown-item">LIVE CHATS</a></small>
+							<small class="text-muted"><a href="#" class="dropdown-item">NEWSLETTER</a></small>
+						</div>
+					</li>
+				</ul>
+
+				<button type="button" class="btn btn-outline-secondary btn-sm mr-2" data-toggle="modal" data-target="#modal1"><small><b>LOG IN</b></small></button>
+				<div class="modal fade bd-example-modal-sm" id="modal1">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content">
+							<button type="button" class="close ml-auto mt-2 mr-2" data-dismiss="modal">
+								<span><i class="fas fa-times"></i></span>
+							</button>
+
+							<div class="modal-body text-center">
+								<img src="img/cat2.png"	alt="" />
+								<h4 class="mx-auto">Login to Product Hunt</h4>
+								<p class="text-muted">We're a community of product people here to geek out and discover new, interesting products.</p>
+								<button type="button" class="btn mr-2 btn-secondary twitter border-0" data-toggle="modal" data-target="#modal1"><i class="fab fa-twitter"></i><b> LOG IN WITH TWITTER</b></button>
+								<button type="button" class="btn btn-secondary btn-sm mr-2" data-toggle="modal" data-target="#modal1">LOG IN WITH FACEBOOK</button>
+								<button type="button" class="btn btn-secondary btn-sm mr-2" data-toggle="modal" data-target="#modal1">LOG IN WITH GOOGLE</button>
+								<button type="button" class="btn btn-secondary btn-sm mr-2" data-toggle="modal" data-target="#modal1">LOG IN WITH ANGELLIST</button>
+
+								<p class="text-muted mt-3 modal-fo">We'll never post to any of your accounts without your permission.</p>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<button class="btn btn-success btn-sm"><small><b>SIGN UP</b></small></button>
+			</div>
+
+		</div>
+	</nav><!-- NAVBAR# -->
+	<br />
+
+	<div id="concon" class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<h5>Upcoming <small class="text-muted">powered by Ship</small></h5>
+				<div class="row no-gutters rounded-top overflow-hidden h-md-500 position-relative bg-white">
+					<div class="col-auto">
+						<img src="https://ph-files.imgix.net/4e326366-82ae-4c25-9f84-4cec8af7efca?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=60&h=60&fit=crop" alt="" class="card-img mt-3 ml-3">
+					</div>
+					<div class="col p-4 d-flex flex-column position-static ml-2">
+						<h6 class="mb-0">Checklist Design</h6>
+						<small class="text-muted">The best UI and UX practices for production ready design.</small>
+						<small class="text-muted"><a href="#" class="stretched-link" style="color: grey">Android</a></small>
+					</div><hr />
+				</div>
+				<div class="row no-gutters border-top overflow-hidden h-md-500 position-relative bg-white">
+					<div class="col-auto">
+						<img src="https://ph-files.imgix.net/e64165dd-10fa-48dd-8e03-42329c960ddf?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=60&h=60&fit=crop" alt="" class="card-img mt-3 ml-3">
+					</div>
+					<div class="col p-4 d-flex flex-column position-static ml-2">
+						<h6 class="mb-0">Notion Template Gallery</h6>
+						<small class="text-muted">The best UI and UX practices for production ready design.</small>
+						<small class="text-muted"><a href="#" class="stretched-link" style="color: grey">Design Tools</a></small>
+					</div>
+				</div>
+				<div class="row no-gutters border-top overflow-hidden shadow-sm h-md-500 position-relative bg-white">
+					<div class="col-auto">
+						<img src="https://ph-files.imgix.net/b5818d0e-8d7b-4032-a414-e72951bf5de6?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=60&h=60&fit=crop" alt="" class="card-img mt-3 ml-3">
+					</div>
+					<div class="col p-4 d-flex flex-column position-static ml-2">
+						<h6 class="mb-0">Emojics</h6>
+						<small class="text-muted">Productivity Suite for Remote Teams</small>
+						<small class="text-muted"><a href="#" class="stretched-link" style="color: grey">Marketing</a></small>
+					</div>
+				</div>
+				<div class="row no-gutters border-top rounded-bottom overflow-hidden shadow-sm h-md-500 position-relative bg-white" >
+					<div class="col p-3 d-flex flex-column position-static ml-2">	
+						<small class="text-muted"><b><a href="#" class="stretched-link" style="color: red;">VIEW ALL PROJECTS</a></b></small>
+					</div>
+					<div class="p-3 d-flex flex-column position-static">	
+						<small class="text-muted">Working on something? <a href="#" class="stretched-link" style="color: red;">Discover Ship</a></small>
+					</div>
+				</div>
+
+				<h5 class="mt-4 mb-2">Today</h5>
+				<div class="row no-gutters rounded-top overflow-hidden h-md-500 position-relative bg-white">
+					<div class="col-auto">
+						<img src="https://ph-files.imgix.net/d8db7c28-4625-4ca8-b64f-69c78b115872?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=60&h=60&fit=crop" alt="" class="card-img mt-3 ml-3">
+					</div>
+					<div class="col p-4 d-flex flex-column position-static ml-2">
+						<h6 class="mb-0">Checklist Design</h6>
+						<small class="text-muted">The best UI and UX practices for production ready design.</small>
+						<small class="text-muted"><a href="#" class="stretched-link" style="color: grey">Android</a></small>
+					</div><hr />
+				</div>
+				<div class="row no-gutters border-top overflow-hidden h-md-500 position-relative bg-white">
+					<div class="col-auto">
+						<img src="https://ph-files.imgix.net/e64165dd-10fa-48dd-8e03-42329c960ddf?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=60&h=60&fit=crop" alt="" class="card-img mt-3 ml-3">
+					</div>
+					<div class="col p-4 d-flex flex-column position-static ml-2">
+						<h6 class="mb-0">Notion Template Gallery</h6>
+						<small class="text-muted">The best UI and UX practices for production ready design.</small>
+						<small class="text-muted"><a href="#" class="stretched-link" style="color: grey">Design Tools</a></small>
+					</div>
+				</div>
+				<div class="row no-gutters border-top overflow-hidden shadow-sm h-md-500 position-relative bg-white">
+					<div class="col-auto">
+						<img src="https://ph-files.imgix.net/38e7aece-10d2-4471-967d-2be13214b4f1?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=60&h=60&fit=crop" alt="" class="card-img mt-3 ml-3">
+					</div>
+					<div class="col p-4 d-flex flex-column position-static ml-2">
+						<h6 class="mb-0">Emojics</h6>
+						<small class="text-muted">Productivity Suite for Remote Teams</small>
+						<small class="text-muted"><a href="#" class="stretched-link" style="color: grey">Marketing</a></small>
+					</div>
+				</div>
+				<div class="row no-gutters border-top rounded-bottom overflow-hidden shadow-sm h-md-500 position-relative bg-white" >
+					<div class="col p-3 d-flex flex-column position-static ml-2">	
+						<small class="text-muted"><b><a href="#" class="stretched-link" style="color: red;">VIEW ALL PROJECTS</a></b></small>
+					</div>
+					<div class="p-3 d-flex flex-column position-static">	
+						<small class="text-muted">Working on something? <a href="#" class="stretched-link" style="color: red;">Discover Ship</a></small>
+					</div>
+				</div>
+
+			</div>
+			<div class="col-md-4">
+				<h6>Product Hunt Radio</h6>
+				<div class="row no-gutters rounded shadow-sm overflow-hidden h-md-500 position-relative bg-white">
+					
+					<div class="col p-2 d-flex flex-column position-static">
+						<a href="#" class="stretched-link" style="color: black; text-decoration: none"><small><b>Front’s experiment in radical transparency</b></small></a>
+					</div>
+					<div class="col-auto">
+						<img width="20" src="img/cat.jpg"  alt="" class="card-img">
+					</div>
+				</div>
+				<h6 class="mt-4">Newsletter</h6>
+				<div class="row no-gutters rounded shadow-sm overflow-hidden h-md-500 position-relative bg-white">
+					<div class="card ml-4 mt-4 rounded-0">
+						<a href=""><img width="20" src="img/gif.gif"  alt="" class="card-img rounded-0"></a>
+						<div class="card-header text-align bg-white text-center">YouTube vs. Netflix <i class="fas fa-film"></i></div>
+					</div>
+					<b class="ml-4 mt-3 mb-3">Get the best new products in your inbox, every day <i class="fas fa-hand-point-down"></i></b>
+					<input type="email" class="form-control form-control-sm ml-3 mr-3 mb-2" style="font-size: 12px" placeholder="Your email" name="" required="">
+					<button type="button" class="btn btn-danger btn-block ml-3 mr-3 mb-3 mt-0"><small style="font-size: 11px"><b>SUBSCRIBE</b></small></button>
+				</div>
+				<h6 class="mt-4">Founder Club <span class="badge badge-success">NEW</span></h6>
+				<div class="row no-gutters rounded shadow-sm overflow-hidden h-md-500 position-relative siyah" style="background-image: url(img/roket.jpg)">
+					<div class="col p-2 d-flex flex-column position-static ">
+						<a href="#" class="stretched-link mt-2" style="color: white; text-decoration: none"><b class="ml-4 mt-2 mb-2 roket">Kickstart your startup</b></a>
+						<small class="ml-4 mt-2 mb-2" style="color: white; line-height: 24px">Access to potentially $12,000+ worth of savings on tools and services for just $60/mo</small>
+						
+					</div>
+					<div class="col-auto">
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br /><br /><br />
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

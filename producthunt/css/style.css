@@ -1,0 +1,97 @@
+.fa {
+	opacity:.2;
+	padding-right:-20px;
+	
+}
+.beyaz {
+	background-color: #fff !important;
+}
+.search-icon {
+	margin-left: -20px;
+	margin-top: 8px;
+}
+body {
+	background-color: #F3F3F3;
+	font-family: Arial;
+}
+nav {
+	position: fixed;
+}
+.twitter{
+	background-color: #00ACED;
+}
+.twitter:hover{
+	background-color: #00b4f5;
+}
+.siyah{
+	background-color: #000;
+}
+.roket{
+	background-image: url(img/roket.jpg);
+}
+
+.btn{
+	font-size:12px;
+}
+.modal-fo{
+	font-weight: 100;
+	font-size: 10px;
+	text-align: center;
+}
+
+input.form-control {
+	font-size:12px;
+	height:35px;
+}
+
+.inpt{
+	z-index: 3;
+}
+.icon{
+	position: absolute;
+	margin-left: 27px;
+	margin-top: 1px;
+	z-index: 1;
+	color: #4f5b66;
+	z-index: 4;
+}
+.form-control-sm {
+	padding-left:30px !important;
+}
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  top: 66px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+
+#text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+
+.arama-menu {
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	background-color: #FFF;
+	z-index: 99999;
+}
+
+.hidden {
+	display: none;
+}
+#ara {
+	display: none;
+}
