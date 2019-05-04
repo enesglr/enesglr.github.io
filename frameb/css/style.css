@@ -1,0 +1,7 @@
+div ul li a {
+	color: #343a40;
+}
+div ul li a:hover {
+	color: #000;
+	text-decoration: none;
+}
