@@ -8,7 +8,6 @@
 }
 .search-icon {
 	margin-left: -20px;
-	margin-top: 8px;
 }
 body {
 	background-color: #F3F3F3;
@@ -92,6 +91,91 @@ input.form-control {
 .hidden {
 	display: none;
 }
-#ara {
-	display: none;
+
+
+
+/* ARAMMA */
+.search input:focus + .search-ac {
+  display: block;
+
+}
+
+.search-ac {
+  padding: 0;
+  margin: 0;
+  display: none;
+  position: absolute;
+  width: 1122px;
+  top: 45px;
+  left: 206px;
+  right: 0;
+  z-index: 10;
+  background: #fdfdfd;
+  border: 1px solid;
+  border-color: #cbcfe2 #c8cee7 #c4c7d7;
+  border-radius: 3px;
+  background-image: -webkit-linear-gradient(top, #fdfdfd, #eceef4);
+  background-image: -moz-linear-gradient(top, #fdfdfd, #eceef4);
+  background-image: -o-linear-gradient(top, #fdfdfd, #eceef4);
+  background-image: linear-gradient(to bottom, #fdfdfd, #eceef4);
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.search-ac:hover {
+  display: block;
+
+}
+
+@media (max-width: 1011px) and (min-width: 768px) {
+.search-ac:hover {
+    display: none!important;
+}
+.search input:focus + .search-ac {
+  display: none !important;
+
+}
+}
+.search-ac li {
+  display: block;
+  font-size: 12px;
+}
+.search-ac li:first-child {
+  margin-top: -1px;
+}
+.search-ac li:first-child:before {
+  border-bottom: 5px solid #c4c7d7;
+  top: -11px;
+}
+.search-ac li:first-child:after {
+  border-bottom: 5px solid #fdfdfd;
+  top: -10px;
+}
+.search-ac li:first-child:hover:before, .search-ac li:first-child:hover:after {
+  display: none;
+}
+.search-ac li:last-child {
+  margin-bottom: -1px;
+}
+.search-ac a {
+  display: block;
+  padding: 6px 40px 6px 10px;
+  color: #000;
+  text-decoration: none;
+}
+.search-ac a span {
+  font-weight: 200;
+}
+.search-ac a:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  margin-top: -9px;
+  width: 18px;
+  height: 18px;
+  background: url("../img/arrow.png") 0 0 no-repeat;
+}
+.search-ac a:hover {
+  color: white;
+  background: #0366d6;
 }

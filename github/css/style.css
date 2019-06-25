@@ -1,0 +1,371 @@
+body {
+	background-color: #F6F8FA;
+}
+
+nav {
+	background-color: #24292E;
+	padding-top: 13px  !important;
+	padding-bottom: 13px !important;
+	font-family: Segoe UI !important;
+	font-size: 14px;
+	font-weight: 600;
+}
+a {
+	text-decoration: none !important;
+}
+.active:hover {
+	color: #ffffffb3 !important;
+}
+
+.btn-status {
+	border: 1px solid lightgrey;
+	margin-left: 35px;
+	font-size: 12px;
+}
+.no-link:hover {
+	background: none !important;
+	color: #000 !important;
+}
+
+/* Tooltip Customize */
+
+
+.tooltip {
+	position: absolute;
+	z-index: 1070;
+	display: block;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1.42857143;
+	text-align: left;
+	text-align: start;
+	text-decoration: none;
+	text-shadow: none;
+	text-transform: none;
+	letter-spacing: normal;
+	word-break: normal;
+	word-spacing: normal;
+	word-wrap: normal;
+	white-space: normal;
+	filter: alpha(opacity=0);
+	opacity: 0;
+
+	line-break: auto;
+}
+.tooltip.in {
+	filter: alpha(opacity=90);
+	opacity: .9;
+}
+.tooltip.top {
+	padding: 5px 0;
+	margin-top: -3px;
+}
+.tooltip.right {
+	padding: 0 5px;
+	margin-left: 3px;
+}
+.tooltip.bottom {
+	padding: 5px 0;
+	margin-top: 3px;
+}
+.tooltip.left {
+	padding: 0 5px;
+	margin-left: -3px;
+}
+.tooltip-inner {
+	max-width: 200px;
+	padding: 3px 8px;
+	color: #fff;
+	text-align: center;
+	background-color: #000;
+	border-radius: 4px;
+}
+.tooltip-arrow {
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-color: transparent;
+	border-style: solid;
+}
+.tooltip.top .tooltip-arrow {
+	bottom: 0;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px 5px 0;
+	border-top-color: #000;
+}
+.tooltip.top-left .tooltip-arrow {
+	right: 5px;
+	bottom: 0;
+	margin-bottom: -5px;
+	border-width: 5px 5px 0;
+	border-top-color: #000;
+}
+.tooltip.top-right .tooltip-arrow {
+	bottom: 0;
+	left: 5px;
+	margin-bottom: -5px;
+	border-width: 5px 5px 0;
+	border-top-color: #000;
+}
+.tooltip.right .tooltip-arrow {
+	top: 50%;
+	left: 0;
+	margin-top: -5px;
+	border-width: 5px 5px 5px 0;
+	border-right-color: #000;
+}
+.tooltip.left .tooltip-arrow {
+	top: 50%;
+	right: 0;
+	margin-top: -5px;
+	border-width: 5px 0 5px 5px;
+	border-left-color: #000;
+}
+.tooltip.bottom .tooltip-arrow {
+	top: 0;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 0 5px 5px;
+	border-bottom-color: #000;
+}
+.tooltip.bottom-left .tooltip-arrow {
+	top: 0;
+	right: 5px;
+	margin-top: -5px;
+	border-width: 0 5px 5px;
+	border-bottom-color: #000;
+}
+.tooltip.bottom-right .tooltip-arrow {
+	top: 0;
+	left: 5px;
+	margin-top: -5px;
+	border-width: 0 5px 5px;
+	border-bottom-color: #000;
+}
+
+
+/* # Tooltip Customize */
+
+/* Dropdown Menu Customize */
+
+.dropdown-item {
+	padding: 4px 10px 4px 16px;
+	font-size: 14px;
+}
+
+.dropdown-item:hover {
+	background-color: #007bff;
+	color: #fff;
+}
+
+input {
+		box-shadow: none !important;
+		
+}
+
+.alt-input {
+	box-shadow: inset 0 1px 2px rgba(27,31,35,.075) !important;
+}
+
+.ust-input {
+	background-color: #3F4448 !important;
+	border: none !important;
+	height: 28px !important;
+
+	width: 300px !important;
+}
+
+.beyaz {
+	background-color: #fff !important;
+}
+
+.ust-input {
+	width: 500px;
+	background-image: url(https://github.githubassets.com/images/search-key-slash.svg);
+	background-repeat: no-repeat;
+	background-position: 98%;
+	-webkit-transition: width .35s ease-in-out !important;
+	transition: width .35s ease-in-out !important;
+}
+
+.ust-input:focus {
+	width: 500px !important;
+	border: none !important;
+	background-image: none;
+}
+
+
+
+.search {
+	position: relative;
+}
+
+.search input:focus {
+	outline: 0;
+	border-color: #66b1ee;
+	-webkit-box-shadow: 0 0 2px rgba(85, 168, 236, 0.9);
+	box-shadow: 0 0 2px rgba(85, 168, 236, 0.9);
+}
+.search input:focus + .search-ac {
+	display: block;
+}
+
+.search-ac {
+	padding: 0;
+	margin: 0;
+	display: none;
+	position: absolute;
+	top: 27px;
+	left: 24px;
+	right: 0;
+	z-index: 10;
+	background: #fdfdfd;
+	border: 1px solid #d3d3d3;
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.search-ac:hover {
+	display: block;
+}
+.search-ac li {
+	display: block;
+}
+.search-ac li:first-child {
+	margin-top: -1px;
+}
+.search-ac li:first-child:before {
+	border-bottom: 5px solid #c4c7d7;
+	top: -11px;
+}
+.search-ac li:first-child:after {
+	border-bottom: 5px solid #fdfdfd;
+	top: -10px;
+}
+.search-ac li:first-child:hover:before, .search-ac li:first-child:hover:after {
+	display: none;
+}
+.search-ac li:last-child {
+	margin-bottom: -1px;
+}
+.search-ac a {
+	display: block;
+	padding: 6px 40px 6px 10px;
+	color: #000;
+	text-decoration: none;
+}
+.search-ac a span {
+	font-weight: 200;
+}
+.search-ac a:before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	margin-top: -9px;
+	width: 18px;
+	height: 18px;
+	background: url("../img/arrow.png") 0 0 no-repeat;
+}
+.search-ac a:hover {
+	color: white;
+	background: #0366d6;
+}
+
+:-moz-placeholder {
+	color: #a7aabc;
+	font-weight: 200;
+}
+
+::-webkit-input-placeholder {
+	color: #a7aabc;
+	font-weight: 200;
+	line-height: 14px;
+}
+
+::-webkit-search-decoration, ::-webkit-search-cancel-button {
+	-webkit-appearance: none;
+}
+
+.lt-ie9 .search input {
+	line-height: 26px;
+}
+
+
+/* sss */
+
+
+.content-left {
+	width: 100%;
+	height: 744px;
+	background-color: #fff;
+	border-right: 1px solid #ece4e4;
+}
+
+.repo-baslik {
+	font-size: 14px;
+	    line-height: 25px;
+}
+
+.explore {
+	border: 1px solid #D1D2D3;
+	color: #0366D6;
+	background-color: #fff;
+	font-weight: 500;
+}
+.explore:hover {
+	color: #fff;
+	background-color: #0366D6;
+}
+
+.dipnot {
+	font-size: 12px;
+	color: #586069;
+}
+
+.list-style-none {
+	list-style: none;
+}
+
+.link-gray {
+	color: #586069;
+}
+.link-gray-dark {
+    color: #24292e!important;
+    font-weight: 600;
+}
+
+.footer {
+	font-size: 12px;
+}
+
+.flex-auto {
+    flex: 1 1 auto!important;
+    height: 500px;
+}
+.border-bottom {
+    border-bottom: 1px solid #e1e4e8!important;
+}
+.sag-side {
+	font-size: 12px;
+}
+.repo-language-color {
+    border-radius: 50%;
+    display: inline-block;
+    height: 12px;
+    position: relative;
+    top: 1px;
+    width: 12px;
+}
+.octicon {
+    display: inline-block;
+    fill: currentColor;
+    vertical-align: text-top;
+}
+@media (max-width: 1011px) and (min-width: 768px) {
+.hide-lg {
+    display: none!important;
+}
+}

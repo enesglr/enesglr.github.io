@@ -20,7 +20,7 @@ function focusFunction() {
   document.getElementById("myInput").style.width = "1120px";
   document.getElementById("myInput").style.position = "absolute";
   document.getElementById("myInput").style.marginLeft = "-55px";
-  document.getElementById("myInput").style.marginTop = "-20px";
+  document.getElementById("myInput").style.marginTop = "-5px";
   document.getElementById("icon1").style.marginLeft = "-75px";
   document.getElementById("icon1").style.marginTop = "-12px";
   document.getElementById("nav1").classList.add("beyaz");

@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>Enes Güler hurriyet.com.tr template</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="FrameB">
+	<meta name="keywords" content="HTML,CSS,XML,JavaScript, PHP">
+	<meta name="author" content="Enes Güler">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+	
+</head>
+<body>
+	<div class="overlay" id="myDIV"> 
+		
+		<div id="ekle" class="container cikar">
+			<div class="sub-menu">
+				<div class="container">
+					<ul class="ml-auto pl-0">
+						<li class="nav-item"><i class="fas fa-user-circle"></i> Üye Girişi</li>
+						<li class="nav-item"> <label class="search-box"> <i class="fa fa-search"></i> Haber Ara</label> </li>
+						<input class="form-control form-control-sm haberara2" id="haber2" type="search" placeholder="Ne Aramıştınız?" />
+						<span class="ufak mr-auto">Gündemden son dakika gelişmelerini Hürriyet'in son dakika sayfasından takip edebilirsiniz.</span>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	<nav id="navbar1" class="navbar navbar-expand-lg navbar-light bg-white border shadow-sm border-top-0 border-left-0 border-right-0 mt-0 mb-0">
+		<div class="container">
+
+			<!-- RESPONSIVE MENU -->
+			<button class="navbar-toggler" type="button"  data-toggle="collapse" data-target="#menuac"><span class="navbar-toggler-icon"><i class="fa fa-navicon"></i></span> </button>
+			<!-- #RESPONSIVE MENU -->
+			<a href="index.html" class="navbar-brand mb-0 mt-0 mr-0"><img src="img/logo.png" alt="Hürriyet" /></a>
+			<div class="collapse navbar-collapse ml-auto" id="menuac">
+				<div class="menu-ust mr-auto">
+					<ul class="ml-auto">
+						<li class="nav-item"><a href="#">Seçim 2019</a></li>
+						<li class="nav-item"><a href="#">Gündem</a></li>
+						<li class="nav-item"><a href="#">Dünya</a></li>
+						<li class="nav-item"><a href="#">Ekonomi</a></li>
+						<li class="nav-item"><a href="#">Spor Arena</a></li>
+						<li class="nav-item"><a href="#">Seyahat</a></li>
+						<li class="nav-item"><a href="#">Kelebek</a></li>
+						<li class="nav-item"><a href="#">Son Dakika</a></li>
+						<li class="nav-item"><a href="#">Yazarlar</a></li>
+					</ul>
+				</div>
+
+				<span class="icon"><i class="fa fa-search search-icon"></i> 
+					<input class="form-control form-control-sm haber-ara" id="haber" type="search" placeholder="Ne Aramıştınız?" />
+				</span>
+				<div class="main-sub-menu"><div class="wrap" onclick="myFunc(this)">
+					<a href="javascript:;" class="main-sub-menu-trigger"></a>
+
+					<div class="bar top"></div>
+					<div class="bar middle"></div>
+					<div class="bar bottom"></div>
+				</div>
+			</div>
+			<div id="ustmenu"></div>
+		</div><!-- #MENU -->
+	</div><!-- #CONTAINER -->
+</nav>
+<div class="bnews bg-danger">
+	<div class="container breaking-news d-flex text-light">
+		<div class="bn-control">
+			<i class="fas fa-caret-square-left"></i>
+			<i class="fas fa-caret-square-right"></i>
+		</div>
+		<div class="bn-header ml-4">
+			SON DAKİKA HABERLER
+		</div>
+		<div class="bn-baslik ml-4">
+			HABER BAŞLIĞI
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-12 mt-4">
+			<div class="sayfalama">
+				<span class="sl-span">1</span>
+				<span class="sl-span">2</span>
+				<span class="sl-span">3</span>
+				<span class="sl-span">4</span>
+				<span class="sl-span">5</span>
+			</div>
+			<div class="sl-haber d-flex">
+				<img src="img/haber.jpg" alt="" />
+			</div>
+		</div>
+	</div>
+	<div class="row mt-4">
+		<div class="col-3">
+			<div class="card">
+				<img src="img/row1.jpg" alt="" />
+				<div class="card-body">Çift emekli maaşı mümkün</div>
+			</div>
+		</div>
+		<div class="col-3">
+			<div class="card">
+				<img src="img/row2.jpg" alt="" />
+				<div class="card-body">Eski belediye başkanı gözaltına alındı</div>
+			</div>
+		</div>
+		<div class="col-3">
+			<div class="card">
+				<img src="img/row3.jpg" alt="" />
+				<div class="card-body">Hızını alamadı! Cüneyt Çakır'a...</div>
+			</div>
+		</div>
+		<div class="col-3">
+			<div class="card">
+				<img src="img/row1.jpg" alt="" />
+				<div class="card-body">Eski belediye başkanı gözaltına alındı</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/ozel.js"></script>
+</body>
+</html>
