@@ -1,2 +1,0 @@
-# enesglr.github.io
-kişisel
