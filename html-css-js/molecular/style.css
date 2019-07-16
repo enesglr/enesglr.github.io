@@ -1,0 +1,69 @@
+.header-top {
+	float:left;
+	width:100%;
+	height:30px;
+	background: #000;
+}
+
+.iletisim ul li{
+	float:left;
+	color:#696969;
+	padding-left: 15px;
+	padding-top: 5px;
+}
+.ust-menu ul li{
+	float:right;
+	padding-right: 15px;
+	padding-top: 5px;
+}
+.ust-menu ul li a{
+	color:#696969;
+	text-decoration:none;
+}
+.header{
+	float:left;
+	width:100%;
+	height:140px;
+	background: #292a2c;
+	border-bottom: 5px solid #d74340;
+}
+.site-basligi{
+	float:left;
+	padding-left:15px;
+	padding-top:40px;
+	color:#e2e2e3;
+}
+.site-basligi h1{
+	font-size:26px;
+	font-family:Ubuntu;
+}
+.menu {
+	float:right;
+	padding-top: 50px;
+}
+.menu ul li{
+	float:left;
+	padding-left:30px;
+	padding-right:15px;
+}
+.menu ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+.menu ul li a span{
+	display: block;
+	font-size: 12px;
+}
+.slogan{
+	width:100%;
+	height:160px;
+	text-align:center;
+	font-size:30px;
+	font-family:Georgia;
+	color:#989898;
+	line-height:50px;
+	vertical-align:middle;
+}
+.split{
+	position:absolute;
+}

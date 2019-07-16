@@ -1,0 +1,7 @@
+#hapisane {background-color: #ccc; width: 800px; height: 1000px; border: 2px solid #aaa; margin: 0 auto; position: relative}
+
+.mahkum1 {background-color: blue; width: 100px; height: 100px; border: 1px solid black; left: 0; top: 0; position: absolute; z-index: 1}
+.mahkum2 {background-color: blue; width: 100px; height: 100px; border: 1px solid black; right: 0; top: 0; position: absolute}
+.mahkum3 {background-color: blue; width: 100px; height: 100px; border: 1px solid black; left: 0; bottom: 0; position: absolute}
+
+.mudur {background-color: red; width: 50px; height: 50px; left: 0; top: 0; position: fixed}

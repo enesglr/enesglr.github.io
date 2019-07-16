@@ -1,0 +1,21 @@
+/* Sıfırlamalar */
+body {}
+ul,li {padding: 0; margin: 0; list-style-type: none}
+:focus {outline: 0}
+
+/* Menu */
+
+#menu {width: 718px; height: 60px; background: url("menu.jpg"); overflow: hidden}
+#menu li {float: left}
+#menu li a {display: block; height: 70px; text-indent: -9999}
+#menu li a:hover {background: url("menu.jpg")}
+#menu li.m1 a {width: 143px}
+#menu li.m2 a {width: 142px}
+#menu li.m3 a {width: 142px}
+#menu li.m4 a {width: 142px}
+#menu li.m5 a {width: 149px}
+#menu li.m1 a:hover  {background-position: 0 -60px}
+#menu li.m2 a:hover  {background-position: -143px -60px}
+#menu li.m3 a:hover  {background-position: -285 -60px}
+#menu li.m4 a:hover  {background-position: -427 -60px}
+#menu li.m5 a:hover  {background-position: -569 -60px}

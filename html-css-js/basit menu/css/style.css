@@ -1,0 +1,6 @@
+ul,li {padding: 0; margin: 0; list-style: none }
+ul#menu {overflow: auto; font: 12px Arial; background-color: #f1f1f1; border: 1px solid #ccc}
+ul#menu li {float: left}
+ul#menu li a {background-color: #f1f1f1; display: block; padding: 10px; text-decoration: none; color: #333}
+ul#menu li a:hover {background-color: #fa6565; color: #fff}
+ul#menu li a.aktif {background-color: #333; color: yellow}
